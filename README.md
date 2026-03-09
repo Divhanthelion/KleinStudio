@@ -4,7 +4,7 @@ KleinStudio is a native macOS Swift application that allows you to locally gener
 
 It features a built-in SwiftUI studio interface for generation and a gallery for viewing and lightly editing your creations.
 
-![KleinStudio](https://via.placeholder.com/800x400.png?text=KleinStudio+Screenshot)
+![KleinStudio](assets/demo.png)
 
 ## Prerequisites
 
