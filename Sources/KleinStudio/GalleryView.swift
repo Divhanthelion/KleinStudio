@@ -172,7 +172,7 @@ struct GalleryItemView: View {
                         
                         let pasteboard = NSPasteboard.general
                         pasteboard.clearContents()
-                        pasteboard.setData(jpegData, forType: .jpeg)
+                        pasteboard.setData(jpegData, forType: NSPasteboard.PasteboardType(rawValue: "public.jpeg"))
                     }
                 }
             }
