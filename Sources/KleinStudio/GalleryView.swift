@@ -162,6 +162,19 @@ struct GalleryItemView: View {
                 Button("Edit Image") {
                     onSelect(item.url)
                 }
+                
+                Button("Copy for iMessage (Compressed)") {
+                    if let nsImage = NSImage(contentsOf: item.url),
+                       let tiffData = nsImage.tiffRepresentation,
+                       let bitmapImage = NSBitmapImageRep(data: tiffData),
+                       // Compress to a highly efficient JPEG
+                       let jpegData = bitmapImage.representation(using: .jpeg, properties: [.compressionFactor: 0.6]) {
+                        
+                        let pasteboard = NSPasteboard.general
+                        pasteboard.clearContents()
+                        pasteboard.setData(jpegData, forType: .jpeg)
+                    }
+                }
             }
             
             Button("Delete", role: .destructive) {
