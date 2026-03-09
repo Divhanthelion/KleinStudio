@@ -1,0 +1,5 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.2
+mflux==0.4.1
+mlx==0.22.1
