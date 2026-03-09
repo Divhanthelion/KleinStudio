@@ -16,7 +16,7 @@ It features a built-in SwiftUI studio interface for generation and a gallery for
 
 *   A Mac with **Apple Silicon** (M1/M2/M3/M4)
 *   macOS 14.0+ (Sonoma or later)
-*   **16GB+ Unified Memory** is highly recommended (the model runs in 4-bit, taking ~9GB of RAM)
+*   **16GB+ Unified Memory** is highly recommended (the model runs in 4-bit, taking ~13.5GB of RAM)
 *   **~60GB of free disk space** for the initial model download and quantized cache.
 *   [Python 3.10+](https://www.python.org/downloads/)
 *   [Swift & Xcode Command Line Tools](https://developer.apple.com/xcode/)
