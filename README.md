@@ -25,7 +25,7 @@ It features a built-in SwiftUI studio interface for generation and a gallery for
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/KleinStudio.git
+   git clone https://github.com/Divhanthelion/KleinStudio.git
    cd KleinStudio
    ```
 

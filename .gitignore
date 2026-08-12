@@ -11,3 +11,13 @@ DerivedData/
 backend/.venv/
 backend/__pycache__/
 backend/flux2-klein-9b-4bit/
+
+# GH_Audit hygiene
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+target/
+dist/
