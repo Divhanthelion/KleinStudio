@@ -3,3 +3,7 @@ uvicorn>=0.24.0
 pydantic>=2.5.2
 mflux>=0.16.9
 mlx>=0.30.0,<0.31.0
+
+# Floors for transitive dependencies with known vulnerabilities (ghaudit sweep)
+anyio>=4.14.2
+transformers>=5.10.0
